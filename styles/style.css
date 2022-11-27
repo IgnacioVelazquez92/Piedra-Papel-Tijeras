@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+main{
+  height: 80vh;
+}
+button{
+  height: 80px;
+}
+
 .img-bot{
   max-width: 200px;
   height: 200px;
@@ -116,6 +123,8 @@
   }
 
 }
+
+
 footer{
   background-color: #101010;
   margin-top: auto;
