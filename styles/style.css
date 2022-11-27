@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.img-bot{
+  max-width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background:url(../img/bot-ppt.png) ;
+  animation: slideinBot 3s steps(3) infinite;
+}
+
+@keyframes slideinBot {
+  0%{ 
+    background-position: 0px;
+  }
+  100%{
+    background-position: 600px;
+  }
+}
+
+.img-player{
+  max-width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background:url(../img/player-ppt.png) ;
+  animation: slideinPlayer 3s steps(3) infinite;
+}
+
+@keyframes slideinPlayer {
+  0%{ 
+    background-position: 0px;
+  }
+  100%{
+    background-position: 600px;
+  }
+}
+
+@media (max-width:700px){
+
+  .img-bot{
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background:url(../img/bot-ppt.png) ;
+    background-size: 300px;
+    animation: slideinBot 3s steps(3) infinite;
+  }
+  
+  @keyframes slideinBot {
+    0%{ 
+      background-position: 0px;
+    }
+    100%{
+      background-position: 600px;
+    }
+  }
+  
+  .img-player{
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background:url(../img/player-ppt.png) ;
+    background-size: 300px;
+    animation: slideinPlayer 3s steps(3) infinite;
+  }
+  
+  @keyframes slideinPlayer {
+    0%{ 
+      background-position: 0px;
+    }
+    100%{
+      background-position: 600px;
+    }
+  }
+
+}
+
+@media (max-width:400px){
+
+  .img-bot{
+    max-width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background:url(../img/bot-ppt.png) ;
+    background-size: 150px;
+    animation: slideinBot 3s steps(3) infinite;
+  }
+  
+  @keyframes slideinBot {
+    0%{ 
+      background-position: 0px;
+    }
+    100%{
+      background-position: 600px;
+    }
+  }
+  
+  .img-player{
+    max-width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background:url(../img/player-ppt.png) ;
+    background-size: 150px;
+    animation: slideinPlayer 3s steps(3) infinite;
+  }
+  
+  @keyframes slideinPlayer {
+    0%{ 
+      background-position: 0px;
+    }
+    100%{
+      background-position: 600px;
+    }
+  }
+
+}
+footer{
+  background-color: #101010;
+  margin-top: auto;
+}
+.img-nacho{
+  width: 75px;
+
+}
