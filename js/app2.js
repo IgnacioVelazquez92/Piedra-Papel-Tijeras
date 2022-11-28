@@ -1,5 +1,5 @@
-let namePlayer = prompt(`Ingresa tu nombre`,"Player");
-let userPlayer = document.getElementById("namePlayer").innerHTML=`${namePlayer} :`;
+// let namePlayer = prompt(`Ingresa tu nombre`,"Player");
+// let userPlayer = document.getElementById("namePlayer").innerHTML=`${namePlayer} :`;
 
 const options=["Piedra", "Papel", "Tijera"];
 let bot = null;
