@@ -54,6 +54,6 @@ const userChoice = () => {
 
     
   } else {
-    
+    alert("❌❗ ingresaste un dato incorrecto, vuelve a intentar.")
   }
 }
