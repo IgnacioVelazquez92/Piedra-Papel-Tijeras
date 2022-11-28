@@ -5,6 +5,7 @@
 
 main{
   height: 80vh;
+  
 }
 button{
   height: 80px;
@@ -127,7 +128,6 @@ button{
 
 footer{
   background-color: #101010;
- ;
 }
 .img-nacho{
   width: 75px;
